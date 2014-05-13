@@ -2,9 +2,19 @@
 spec
 ====
 
-
 Bash implementation of color spectrum for IP subneting
 
+tcpdump live output
+^^^^^^^^^^^^^^^^^^^
+
+.. figure:: http://i.imgur.com/0iKAcJu.png
+    :figwidth: image
+    
+tail on a nginx log file
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: http://i.imgur.com/HgXTS5c.png
+    :figwidth: image
 
 How it works
 ------------
@@ -19,7 +29,6 @@ it uses some trickery to make it still useful.
 Usage examples
 ---------------
 
-
 .. code-block:: bash
 
     $ tcpdump -nUl | spec
@@ -29,6 +38,9 @@ Usage examples
 Arguments
 ---------
 
+.. figure:: http://i.imgur.com/7Hd5KUu.png
+    :figwidth: image
+
 Octets
 ^^^^^^
 
@@ -36,10 +48,8 @@ Octets
  - **16**: Use the first 2 octets
  - **24**: Use the first octet
 
-
 Modes
 ^^^^^
-
 
  - **octets**: Color the octets (default)
  - **dots**: Color the dots
