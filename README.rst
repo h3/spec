@@ -59,7 +59,7 @@ Why it matters
 --------------
 
 It matters because of a neuroscience theory called *Cognitive neuroscience of visual object recognition* which
-states that the stage 1 of object recognition is *Processing of basic object components, such as **colour**, depth, and form.*
+states that the stage 1 of object recognition is *Processing of basic object components, such as _colour_, depth, and form.*
 
 Read more: http://en.wikipedia.org/wiki/Cognitive_neuroscience_of_visual_object_recognition
 
