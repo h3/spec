@@ -44,23 +44,24 @@ Arguments
 Octets
 ^^^^^^
 
+- **8**: Use the first 3 octets
+- **16**: Use the first 2 octets
+- **24**: Use the first octet
+
 .. code-block:: bash
     
     $ tcpdump -nUl | spec --octet=24
 
- - **8**: Use the first 3 octets
- - **16**: Use the first 2 octets
- - **24**: Use the first octet
 
 Modes
 ^^^^^
 
+- **octets**: Color the octets (default)
+- **dots**: Color the dots
+
 .. code-block:: bash
     
     $ tcpdump -nUl | spec --mode=dots
-
- - **octets**: Color the octets (default)
- - **dots**: Color the dots
 
 
 Why it matters
